@@ -1,6 +1,5 @@
 ﻿proc print data=sashelp.class;
-where Sex = 'F';
-/* where Sex = 'M'; */
-/* Removing this new note */
-/* Change */ 
+where Sex = 'M';
+/* where Sex = 'F'; */
+/* Change 4/6/26 */ 
 run;
